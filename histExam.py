@@ -1,6 +1,7 @@
 __author__ = 'Gun-woo'
 import numpy as np
 import pylab
+
 class histogram:
     def h1(self):
         self.v1 = np.random.normal(20, 2, 1000)
@@ -20,6 +21,7 @@ class histogram:
     def draw(self, histo):
         pylab.hist(histo, bins=100)
         pylab.show()
+
 """
 a = histogram()
 v1 = a.h1()
